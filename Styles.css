@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    font-style: oblique;
+    color: white;
+}
+body{
+
+    background-image: url("Imagenes/Fondo.webp");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-color: #0DAAA1;
+    font-family:Arial, Helvetica, sans-serif
+
+}
+header{
+    background-image: url("Imagenes/Logo.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-color:#0e5e5a;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+    margin: 0px;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 5px;
+}
+
+
+nav{
+    height: 25px;
+}
+
+a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration:none;
+
+}
+a:hover{
+    color:rgb(96, 98, 126)
+}
+
+a link{
+    color:#0DAAA1;
+}
+
+.clearfix{
+    clear:both;
+}
+
+#container{
+
+    width: 90%;
+    margin: 2px auto;
+}
+
+#content{
+    float: left;
+    width: 60%;
+    border-bottom: 1px outset  rgb(255, 255, 255);
+    border-top: 1px outset  rgb(255, 255, 255);
+    min-height: 500px;
+
+}
+
+aside{
+    float: right;
+    width: 17%;
+    color: white;
+    border-bottom: 1px outset  rgb(255, 255, 255);
+    border-top: 1px outset  rgb(255, 255, 255);
+    min-height: 500px;
+}
+
+aside button{
+    background-color: #2c2c2c;
+    color:white;
+    font-weight: bold;
+}
+
+aside ul li{
+    list-style: none;
+    margin: 2px;
+}
+aside a{
+    color:rgb(223, 223, 223);
+}
+
+input{
+    color:white;
+    font-weight: bold;
+}
+
+footer{
+    color: white;
+    height: 10px;
+    font-weight: bold;
+}
+
+.article{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px outset  rgb(255, 255, 255);
+    padding-bottom: 15px;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 7px 7px 15px #12101b;
+        
+}
+
+.article p{
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:#000000;
+}
+
+.article:first-child{
+    background-color: transparent;
+    padding-top: 15px;
+}
+
+.article h2{
+    position:sticky;
+    color:#000000;
+    background-color: #0e5e5a;
+}
+.article h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.article a{
+    font-size: 25px;
+    font-weight: bold;
+    color:#000000;
+}
+
+.mini{
+    width: 200px;
+    float:right;
+}
+
+.article img{
+	margin-bottom: -2px;
+	transition: all 0.3s ease-out;
+    transform:scale(1);
+	position: relative;
+	z-index: 2;
+    padding: 12px; 
+    margin: 12px; 
+    border: 1px outset rgb(255, 255, 255);
+    box-shadow: 3px 3px 15px #000000; 
+    width: 80%;
+}
+.article:hover img {
+	transform: scale(1.1, 1.1);
+	z-index: 9;
+}
